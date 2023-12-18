@@ -20,7 +20,7 @@ app.use(cookies());
 
 // Function to generate the JWT Token
 
-mongoose.connect('mongodb://127.0.0.1:27017/suveyApp');
+mongoose.connect('mongodb+srv://dbuser:Mzktxt03F0ZBg0Kw@cluster0.nofsb2n.mongodb.net/?retryWrites=true&w=majority');
 
 // Middleware to check if the user is registered or not
 
